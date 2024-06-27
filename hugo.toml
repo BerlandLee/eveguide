@@ -1,4 +1,15 @@
 baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+languageCode = 'zh-cn'
+title = 'EVE 指南'
 theme = 'hugo-theme-relearn'
+enableEmoji = true
+sectionPagesMenu = 'main'
+
+[params]
+  disableLandingPageButton = true
+
+
+#[menu]
+#  [[menu.shortcuts]]
+#    name = "<i class='fa-brands fa-qq'></i> 招新群:464381277"
+#    weight = 11

@@ -1,10 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://192.168.0.163:1313/categories/index.html</loc>
+    <loc>http://192.168.0.163:1313/chapter1/index.html</loc>
+    <lastmod>2024-06-27T09:23:12+08:00</lastmod>
+  </url>
+  <url>
+    <loc>http://192.168.0.163:1313/chapter2/index.html</loc>
   </url>
   <url>
     <loc>http://192.168.0.163:1313/index.html</loc>
+    <lastmod>2024-06-27T09:23:12+08:00</lastmod>
+  </url>
+  <url>
+    <loc>http://192.168.0.163:1313/chapter1/introduce/index.html</loc>
+    <lastmod>2024-06-27T09:23:12+08:00</lastmod>
+  </url>
+  <url>
+    <loc>http://192.168.0.163:1313/categories/index.html</loc>
   </url>
   <url>
     <loc>http://192.168.0.163:1313/tags/index.html</loc>
