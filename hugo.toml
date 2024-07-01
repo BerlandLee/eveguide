@@ -1,4 +1,4 @@
-baseURL = 'https:/192.168.0.163:1313/'
+baseURL = 'https:/www.eveguide.cn/'
 languageCode = 'zh-cn'
 title = 'EVE 新手指南'
 theme = 'hugo-theme-relearn'
