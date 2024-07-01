@@ -1,15 +1,42 @@
-baseURL = 'https://example.org/'
+baseURL = 'https:/192.168.0.163:1313/'
 languageCode = 'zh-cn'
-title = 'EVE 指南'
+title = 'EVE 新手指南'
 theme = 'hugo-theme-relearn'
 enableEmoji = true
 sectionPagesMenu = 'main'
 
 [params]
   disableLandingPageButton = true
+  #themeVariant = ['relearn-light', 'relearn-dark']
 
 
 #[menu]
 #  [[menu.shortcuts]]
 #    name = "<i class='fa-brands fa-qq'></i> 招新群:464381277"
 #    weight = 11
+
+[markup]
+  [markup.goldmark]
+    duplicateResourceFiles = false
+    [markup.goldmark.renderer]
+      unsafe = true
+
+    [markup.goldmark.extensions]
+      strikethrough = false
+
+      table = true
+      linkify = true
+      typographer = true
+      #strikethrough = true
+      taskList = true
+      footnote = true
+      linkifyProtocol = 'https'
+
+      [markup.goldmark.extensions.extras.delete]
+        enable = true
+      [markup.goldmark.extensions.extras.subscript]
+        enable = true
+      [markup.goldmark.extensions.extras.mark]
+        enable = true
+      [markup.goldmark.extensions.extras.inserted]
+        enable = true

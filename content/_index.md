@@ -1,6 +1,6 @@
 +++
 archetype = "home"
-title = "EVE 指南ee"
+title = "EVE 新手指南"
 draft = false
 +++
 

@@ -1,8 +1,12 @@
 +++
 archetype = "chapter"
-title = "1.军团介绍&加入"
+title = "1. 军团介绍&加入"
 weight = 1
 collapsibleMenu = true
 +++
 
-一级菜单欢迎页面
+![Homercat](/images/mainbg.png?lightbox=false)
+
+---
+
+>我们的征途是星辰大海
