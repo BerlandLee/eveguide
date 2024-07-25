@@ -5,7 +5,7 @@ weight = 1
 collapsibleMenu = true
 +++
 
-![Homercat](/images/mainbg.png?lightbox=false)
+![Homercat](/images/bg.jpg?lightbox=false)
 
 ---
 

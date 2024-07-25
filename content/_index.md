@@ -5,7 +5,7 @@ draft = false
 +++
 
 
-![Homercat](/images/mainbg.png?lightbox=false)
+![Homercat](/images/bg.jpg?lightbox=false)
 
 ---
 
