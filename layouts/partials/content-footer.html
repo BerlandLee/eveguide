@@ -1,0 +1,40 @@
+<!-- <div style="text-align:center; margin-top:40px; font-size:14px; color:#666;">
+  <a href="https://beian.miit.gov.cn/" target="_blank">
+    粤ICP备12345678号
+  </a>
+</div>
+
+ -->
+
+
+
+<div style="min-height: calc(100vh - 150px);"></div>
+
+<div class="content-footer__container" style="text-align:center; padding: 15px 0; border-top: 1px solid #eee;">
+  {{ if .Site.Params.ShowCopyright }}
+  <span class="content-footer__copyright" style="font-size:0.8rem; color:#666;">
+    {{ if isset .Site.Params "copyright" }}
+      {{ .Site.Params.Copyright | markdownify }}
+    {{ else }}
+      &copy; {{ now.Year }} {{ .Site.Title }}
+    {{ end }}
+  </span>
+  {{ end }}
+
+  <!-- ICP 备案 -->
+  <span style="font-size:1.2rem; color:#666;">
+    <a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener noreferrer" style="color:#666; text-decoration:none;">
+      陕ICP备2022000107号-4
+    </a>
+  </span>
+
+  <!-- 分隔符 | 严格居中 -->
+  <!-- <span style="margin:0 0.8rem; font-size:1.2rem; color:#666;">|</span> -->
+
+  <!-- 公安备案 -->
+  <!-- <span style="font-size:1.2rem; color:#666;">
+    <a href="https://beian.mps.gov.cn/" target="_blank" style="color:#666; text-decoration:none;">
+      粤公网安备XXXXXXXXXX号
+    </a>
+  </span> -->
+</div>
